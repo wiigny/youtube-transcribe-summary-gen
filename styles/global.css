@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Color+Emoji&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --background-main: #121214;
+  --background-input: #202024;
+
+  --brand-1: #996dff;
+  --brand-2: #8257e5;
+
+  --white-fixed: #fff;
+
+  --gray-1: #7c7c8a;
+
+  --rounded-8: 8px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}

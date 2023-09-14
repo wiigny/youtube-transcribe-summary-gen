@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shorts Summary</title>
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/body.css" />
+    <link rel="stylesheet" href="./styles/index/app.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img src="./assets/play.svg" alt="play img" />
+        <h1>Shorts Summary</h1>
+      </header>
+
+      <form id="form">
+        <input type="url" name="url" id="url" placeholder="URL do vídeo" />
+        <button type="submit" id="buttonSend" disabled>
+          <i class="ph ph-paper-plane-tilt"></i>
+        </button>
+      </form>
+
+      <footer>
+        <div>
+          <h2 class="h2-hidden">Transcrição</h2>
+          <p id="content" class="content not-select">
+            Insira a URL de um vídeo Shorts do
+            <a href="https://www.youtube.com/shorts/" target="_blank"
+              >Youtube</a
+            >
+          </p>
+        </div>
+
+        <div>
+          <h2 class="h2-hidden">Resumo</h2>
+          <p id="summary"></p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="/web/scripts/main.js"></script>
+  </body>
+</html>
